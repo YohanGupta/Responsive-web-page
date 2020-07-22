@@ -1,0 +1,53 @@
+body{
+		background-image: url("FerrariBackground.jpg"); 
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+}
+nav div #a2{
+	font-weight: 500;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+#brand{
+	color: gray;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 40px;
+	text-transform: uppercase;
+	border-bottom: 3px solid yellow;
+}
+nav div #a1,#a3,#a4,#a5{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	color: gray;
+}
+#rotate{
+	-webkit-transform: rotate(-90deg);
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 225px;
+	margin-left: -200px;
+	letter-spacing: 3px;
+}
+#rotate #rotate1,#rotate3,#rotate4{
+	border-bottom: 3px solid red;
+}
+
+#rotate #rotate2{
+	border-bottom: 3px solid yellow;
+}
+ #rotate #rotate1,#rotate3,#rotate4,#rotate2{
+ 	margin-right: 30px;
+ 	padding-bottom: 13px;
+
+}
+
+
+
+@import url(//db.onlinewebfonts.com/c/236987803794b916d95e7fd41ed4fee0?family=SF+Pro+Text);
+@font-face {font-family: "SF Pro Text"; src: url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.eot"); src: url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.woff") format("woff"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/236987803794b916d95e7fd41ed4fee0.svg#SF Pro Text") format("svg"); }
